@@ -2,11 +2,11 @@ angular
  .module('championsLeague', ['ngRoute'])
  .config(function ($routeProvider) {
   $routeProvider
-   .when('/done', {
+   .when('/', {
     templateUrl: 'views/main.html',
     controller: 'LeagueDetails'
    })
-   .when('/gjgjgj', {
+   .when('/team_list', {
     templateUrl: 'views/team_list.html',
     controller: 'TeamListCtrl'
    })
@@ -14,11 +14,11 @@ angular
     templateUrl: 'views/team_details.html',
     controller: 'TeamDetailsCtrl'
    })
-   .when('/',{
+   .when('/top_scorers',{
      templateUrl: 'views/top_scorers.html',
     controller: 'TopScorerCtrl'
    })
-   .when('/',{
+   .when('/most_app',{
     templateUrl: 'views/most_app.html',
     controller: 'MostAppCtrl'
    })

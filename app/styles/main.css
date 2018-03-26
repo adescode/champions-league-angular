@@ -1,5 +1,9 @@
 .landing {
-    background-image: url("http://img.fifa.com/mm/photo/tournament/loc/02/31/42/51/2314251_big-lnd.jpg");
+    background-image: url("/images/main_back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 html,body {
     margin:0;
