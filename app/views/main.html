@@ -19,24 +19,32 @@
  </div>
  <div class="right-div animated slideInRight">
   <div class="tab">
-   <div class="top-tab">Founded</div>
+   <div class="top-tab animated slideInUp">Founded</div>
    <div class="sub-tab">{{details.founded}}</div>
   </div>
   <div class="tab">
-   <div class="top-tab">Region</div>
+   <div class="top-tab animated slideInUp">Region</div>
    <div class="sub-tab">{{details.region}}</div>
   </div>
   <div class="tab">
-   <div class="top-tab">Number Of Teams</div>
+   <div class="top-tab animated slideInUp">Number Of Teams</div>
    <div class="sub-tab">{{details.numberOfTeams}}</div>
   </div>
   <div class="tab">
-   <div class="top-tab">Qualified For</div>
-   <div class="sub-tab">{{details.qualifierFor}}</div>
+   <div class="top-tab animated slideInUp">Qualified For</div>
+   <div class="sub-tab" ng-repeat="x in details.qualifierFor">{{x}}</div>
   </div>
   <div class="tab">
-   <div class="top-tab">Related Competitions</div>
+   <div class="top-tab animated slideInUp">Related Competitions</div>
    <div class="sub-tab">{{details.relatedCompetitions}}</div>
+  </div>
+  <div class="tab">
+   <div class="top-tab animated slideInUp">Current Champions</div>
+   <div class="sub-tab">{{details.currentChampions}}</div>
+  </div>
+  <div class="tab">
+   <div class="top-tab animated slideInUp">Most Successful Club</div>
+   <div class="sub-tab">{{details.mostSuccessfulClub}}</div>
   </div>
  </div>
 </div>

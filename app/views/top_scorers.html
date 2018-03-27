@@ -1,4 +1,16 @@
-<div>
- <div ng-repeat="topS in topScorer">
-  <span ng-bind="topS.name"></span></div>
+<div class="main-div">
+ <div class="left-div animated slideInLeft">
+  <div>
+   <div ng-repeat="team in teams">
+    <div>rank:<a ng-href="#/team/{{team.club}}" ng-bind="team.club"></a></div>
+   </div>
+  </div>
+ </div>
+ <div class="right-div animated slideInRight">
+  <div class="tab">
+   <div class="top-tab animated slideInUp" > Top 10 Team </div>
+   <div class="sub-tab" ng-repeat="topS in topScorer">
+    <div>{{team.rank}}</div>  <div>{{topS.name}}</div> <div>{{topS.goals}}</div></div>
+  </div>
+ </div>
 </div>
