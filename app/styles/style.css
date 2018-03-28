@@ -8,7 +8,7 @@
 }
 [class*="col-"] {
     float: left;
-    padding:15px;
+    padding:5px;
 }
 html, body {
     width: 100%;
@@ -166,8 +166,24 @@ html, body {
     font-weight:400;
     font-family: "Roboto", Arial, sans-serif;
     border-radius:0 0 5px 5px;
+    width: 100%;
     color: whitesmoke;
     margin-bottom: 2px;
+    text-overflow: ellipsis;
+    max-height: 35px;
+    overflow: hidden;
+}
+.sub-tab .inner-wide{
+    width: 70%;
+    float: left;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin: 0 2px;
+}
+.sub-tab .inner-small{
+    width: 10%;
+    float: left;
+    text-align: center
 }
 
 /* For mobile phones: */

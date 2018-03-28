@@ -15,6 +15,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'REAL',
   location: 'Spain',
+  name: 'REAL MADRID',
   rank: 1,
   winners: '12',
   runnersUp: '3',
@@ -24,6 +25,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'ACML',
   location: 'Italy',
+  name: 'AC MILAN',
   rank: 2,
   winners: '7',
   runnersUp: '4',
@@ -33,6 +35,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'BAYN',
   location: 'Germany',
+  name: 'BAYERN MUNICH',
   rank: 3,
   winners: '5',
   runnersUp: '5',
@@ -42,6 +45,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'BARC',
   location: 'Spain',
+  name: 'BARCELONIA',
   rank: 4,
   winners: '5',
   runnersUp: '3',
@@ -51,6 +55,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'LIVR',
   location: 'England',
+  name: 'LIVERPOOL',
   rank: 5,
   winners: '5',
   runnersUp: '2',
@@ -60,6 +65,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'AJAX',
   location: 'France',
+  name: 'AJAX',
   rank: 6,
   winners: '4',
   runnersUp: '2',
@@ -69,6 +75,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'INTR',
   location: 'Italy',
+  name: 'INTERNAZIONALE',
   rank: 7,
   winners: '3',
   runnersUp: '2',
@@ -78,6 +85,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'MANU',
   location: 'England',
+  name: 'MANCHESTER UNITED',
   rank: 8,
   winners: '3',
   runnersUp: '2',
@@ -87,6 +95,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'JUVE',
   location: 'Juventus',
+  name: 'JUVENTUS',
   rank: 9,
   winners: '2',
   runnersUp: '7',
@@ -96,6 +105,7 @@ CHAMPIONS.TOP_TEAM = [
  {
   club: 'BENF',
   location: 'Spain',
+  name: 'BENFICA',
   rank: 10,
   winners: '12',
   runnersUp: '3',
